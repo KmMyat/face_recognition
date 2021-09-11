@@ -5,7 +5,7 @@ Created on Sat Sep 11 21:24:55 2021
 @author: KM
 """
 
-import streamlit
+import streamlit as st
 import tensorflow as tf
 from keras.models import model_from_json
 import numpy as np
