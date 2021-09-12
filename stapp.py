@@ -11,7 +11,7 @@ from keras.models import model_from_json
 import numpy as np
 
 # Loading the model
-json_file = open("model-bw.json", "r")
+json_file = open("model_file/model-bw.json", "r")
 model_json = json_file.read()
 json_file.close()
 loaded_model = model_from_json(model_json)
