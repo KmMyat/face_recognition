@@ -4,9 +4,9 @@ Created on Sat Sep 11 21:24:55 2021
 
 @author: KM
 """
-
+'''
 import streamlit as st
-#import tensorflow as tf
+import tensorflow as tf
 import keras
 from keras.models import model_from_json
 import numpy as np
@@ -36,3 +36,8 @@ score = loaded_model.predict(img_array)
 final = classes[np.argmax(score)]+ ' is in this photo.'
 print(classes[np.argmax(score)],'is in this photo.')
 print(final,'!!')
+'''
+import streamlit.st
+
+st.image('test_set/LM/m10.jpg')
+st.write('ok')
