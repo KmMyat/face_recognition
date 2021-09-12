@@ -37,8 +37,9 @@ final = classes[np.argmax(score)]+ ' is in this photo.'
 print(classes[np.argmax(score)],'is in this photo.')
 print(final,'!!')
 '''
-import streamlit as st
+
 import tensorflow as tf
+import streamlit as st
 
 st.image('test_set/LM/m10.jpg')
 st.write('ok')
